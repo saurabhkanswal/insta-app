@@ -1,0 +1,22 @@
+.feed-section {
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   padding-top: 2em;
+   flex-flow: row nowrap;
+   max-width: 935px; 
+   width: 100%;
+}
+
+.feed-section-left {
+   width: 65%;
+}
+
+.feed-section-right {
+   width: 35%;
+   padding-left: 2em;
+   
+}
+
+
+

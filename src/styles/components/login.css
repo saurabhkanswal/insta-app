@@ -1,0 +1,126 @@
+.login-container{
+	width: 61%;
+	min-height: 300px;
+    margin: 2em auto;
+	display: -webkit-flex; /* Safari */		
+	display: flex; /* Standard syntax */
+}
+.login-container .column{
+	padding: 0;
+	-webkit-flex: 1; /* Safari */
+	-ms-flex: 1; /* IE 10 */
+	flex: 1; 
+}
+
+.login-column {
+    margin-left: -1em;
+}
+
+.login-form > img {
+    width: 60%;
+    padding-top: .5em;
+    padding-bottom: .3em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.login-form > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form {
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    background-color: white;
+    padding: 0 2.8em;
+    margin-top: 2em;
+}
+
+form > input {
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    margin: .3em 0;
+    background-color: #fafafa;
+    padding: 11px 0px 9px 8px;
+}
+
+.login-facebook {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 2em;
+}
+
+.login-facebook > button >p {
+    color:#4267B2;
+    margin: 0;
+    margin-left: .5em;
+    padding: 0;
+    border: 0;
+    padding-top: 3px;
+    font-weight: bold;
+}
+
+.login-facebook > button{
+    background-color: #fafafa;
+    border: none;
+}
+
+.or-divider-line {
+    flex: 1;
+    background-color: rgba(var(--b38,219,219,219),1);
+    height: 1px;
+    position: relative;
+    top: .45em;
+}
+
+.or-divider {
+    display: flex;
+    margin-top: 1em;
+}
+
+.or{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+}
+
+.forgot-password {
+    text-align: center;
+    color: #00376B;
+    font-size: 13px;
+}
+
+.login-form-mid > p {
+    text-align: center;
+}
+
+#sign-up {
+    color: #0095f6;
+    font-weight: bold;
+}
+
+.login-form-mid {
+    margin-top: 1em;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    background-color: white;
+}
+
+#get-app {
+    text-align: center;
+    font-weight:lighter;
+}
+
+.badges {
+    display: flex;
+    margin: 10px 0 10px 0;
+    justify-content: center;
+}
+
+.badges > img {
+    height: 40px;
+}
