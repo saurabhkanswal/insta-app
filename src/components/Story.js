@@ -6,7 +6,7 @@ const Story = () =>{
     return(
         <div className="horizontal-scroll-wrapper squares">
             <div>
-                <img src={user.photoURL} alt="" className="avatar"/>
+                <img src={user.photoURL || "https://avatars.githubusercontent.com/u/26677033?s=120&v=4"} alt="" className="avatar"/>
             </div>
             <div>
                 <img src="https://avatars.githubusercontent.com/u/8406456?s=120&v=4" alt="" className="avatar"/>

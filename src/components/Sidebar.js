@@ -9,7 +9,7 @@ const Sidebar = (props)=>{
             <div className="sidebar-Header">
             <div className="sidebar-Header-1">
                 <div>
-                    <Avatar src={user.photoURL} alt=""/>
+                    <Avatar src={user.photoURL || "https://avatars.githubusercontent.com/u/26677033?s=120&v=4"} alt=""/>
                 </div>
                 <div className="sidebar-Header-para">
                     <p><span id="bold">{user.displayName}</span></p>

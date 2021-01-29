@@ -20,6 +20,14 @@ const Login = ()=> {
              alert('ther is an error') 
             });
     }
+
+    const formSub = ()=>{
+        dispatch({
+            type: actionTypes.SET_USER,
+            user: 'done'
+        })
+    }
+
     return (
         <div>
         <div className="login-container">
@@ -29,7 +37,7 @@ const Login = ()=> {
         <div className="column login-column ">
             <div className="login-form">
                 <img src="https://raw.githubusercontent.com/clumes/instagram-login/master/assets/images/instagram-logo.png" alt=""/>
-                    <form>
+                    <form onSubmit={formSub}>
                     <input type="text" name="Phone no, username, or email" placeholder="Phone number, username, or email"/>
                     <input type="text" name="Password" placeholder="Password"/>
                     <input type="submit" value="Login"/>

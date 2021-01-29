@@ -41,7 +41,7 @@ const Header = () =>{
                 <div className="header-icon"><InboxSharpIcon style={{ fontSize: 28 }}/></div>
                 <div className="header-icon"><ExploreOutlinedIcon style={{ fontSize: 28 }}/></div>
                 <div className="header-icon"><FavoriteBorderOutlinedIcon style={{ fontSize: 28 }}/></div>
-                <div className="header-icon"><Avatar src={user.photoURL} className={classes.small}/></div>
+                <div className="header-icon"><Avatar src={user.photoURL || "https://avatars.githubusercontent.com/u/26677033?s=120&v=4"} className={classes.small}/></div>
             </div>
             </div>
         </div>
